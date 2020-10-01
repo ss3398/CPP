@@ -1,0 +1,1 @@
+BEGIN{FS = " "} ; {sum1+=$1} ; {sum4+=$4} ;  END {print sum1 " " sum4}
